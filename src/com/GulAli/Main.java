@@ -8,6 +8,7 @@ class Main {
         d1.name = "Doggy";
         c1.name = "Catty";
 
+
         d1.displayInfo();
         c1.displayInfo();
 
