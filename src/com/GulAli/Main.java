@@ -1,5 +1,8 @@
 package com.GulAli;
 
+import com.GulAli.animal.Cat;
+import com.GulAli.animal.Dog;
+
 class Main {
     public static void main(String[] args) {
         Dog d1 = new Dog();

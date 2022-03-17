@@ -1,6 +1,8 @@
-package com.GulAli;
+package com.GulAli.animal;
 
-class Dog implements Animal {
+import com.GulAli.repository.Animal;
+
+public class Dog implements Animal {
     public String name;
     @Override
     public void displayInfo() {
