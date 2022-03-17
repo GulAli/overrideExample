@@ -10,6 +10,9 @@ class Main {
 
         d1.displayInfo();
         c1.displayInfo();
+
+        System.out.println("My name is " + d1.getAnimalName() + ".");
+        System.out.println("My name is " + c1.getAnimalName() + ".");
     }
 }
 

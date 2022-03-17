@@ -4,6 +4,11 @@ class Dog implements Animal {
     public String name;
     @Override
     public void displayInfo() {
-        System.out.println("I am a dog and my name is " + this.name);
+        System.out.println("Dog information. Name : " + this.name);
+    }
+
+    @Override
+    public String getAnimalName() {
+        return this.name;
     }
 }
