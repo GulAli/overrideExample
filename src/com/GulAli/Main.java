@@ -16,24 +16,3 @@ class Main {
     }
 }
 
-class Animal {
-    public String name;
-    public void displayInfo() {
-        System.out.println("I am an animal and my name is " + this.name);
-    }
-
-}
-
-class Dog extends Animal {
-    @Override
-    public void displayInfo() {
-        System.out.println("I am a dog and my name is " + this.name);
-    }
-}
-
-class Cat extends Animal {
-    @Override
-    public void displayInfo() {
-        System.out.println("I am a cat and my name is " + this.name);
-    }
-}
