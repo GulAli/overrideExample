@@ -5,6 +5,7 @@ class Main {
         Dog d1 = new Dog();
         Cat c1 = new Cat();
 
+
         d1.name = "Doggy";
         c1.name = "Catty";
 
